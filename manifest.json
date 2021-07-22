@@ -1,0 +1,14 @@
+
+{
+    "manifest_version": 2,
+    "name": "Focus",
+    "version": "1.0",
+    "description": "Justin and Eric's first attempt at a Chrome Extension. checking contents. hello.",
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["jquery.min.js", "./main.js"]
+        }
+    ]
+
+}

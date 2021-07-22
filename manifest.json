@@ -3,10 +3,10 @@
     "manifest_version": 2,
     "name": "Focus",
     "version": "1.0",
-    "description": "Justin and Eric's first attempt at a Chrome Extension. checking contents. hello.",
+    "description": "Justin and Eric's first attempt at a Chrome Extension. wayfair3",
     "content_scripts": [
         {
-            "matches": ["https://www.youtube.com/*"],
+            "matches": ["https://www.wayfair.com/*", "https://www.youtube.com/*", "https://stackoverflow.com/*", "https://github.com/*"],
             "js": ["./main.js"],
             "css": ["index.css"]
         }
